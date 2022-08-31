@@ -15,8 +15,10 @@ namespace ls
 				std::string getServerTime(int timeout = 0);
 				std::string getCookieTime(int timeout = 0);
 				long long getCurrentMillionSecond();
+				long long getCurrentMS();
 			protected:
 				struct tm getSeed(int timeout);
+				
 		};
 		
 		extern API api;
